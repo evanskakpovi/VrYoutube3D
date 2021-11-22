@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="topvpn_ads">Рекламы</string>
+    <string name="topvpn_don_t_use_my_resources">Не используйте неиспользованные ресурсы</string>
+    <string name="topvpn_donate">пожертвовать</string>
+    <string name="topvpn_for_futher_information">.</string>
+    <string name="topvpn_free">Бесплатно</string>
+    <string name="topvpn_i_agree">согласен</string>
+    <string name="topvpn_i_disagree">Не согласен</string>
+    <string name="topvpn_i_dont_agree">Не согласен</string>
+    <string name="topvpn_limited">Ограниченное</string>
+    <string name="topvpn_no_ads">Без Реклам</string>
+    <string name="topvpn_no_donate">Без пожетвпвание</string>
+    <string name="topvpn_peer_msg">использование \"%1$s\" предоставляется бесплатно в обмен на доступ к неиспользованным ресурсом вашего аппарата.</string>
+    <string name="topvpn_please_see_our">Для дополнительной информации смотрите</string>
+    <string name="topvpn_premium">примеум</string>
+    <string name="topvpn_subscription">подписка</string>
+    <string name="topvpn_tos">условие использование</string>
+    <string name="topvpn_use_my_idle_resources">Используйте неиспользованные ресурсы</string>
+    <string name="topvpn_welcome_to">Добро пожаловать в</string>
+</resources>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+
+    tools:context="${relativePackage}.${activityClass}"
+    android:id="@+id/rel">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:gravity="center"
+
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <ZoomControls
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zoomControls"
+            android:gravity="center"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="50"
+            android:id="@+id/zoo"
+            android:textColor="#000"
+            android:background="@drawable/whtback"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:clickable="true"
+
+            android:layout_below="@+id/Settings"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignRight="@+id/Settings"
+            android:layout_alignEnd="@+id/Settings"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VrYoutube3D.iml" filepath="$PROJECT_DIR$/VrYoutube3D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audio/audio.iml" filepath="$PROJECT_DIR$/audio/audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gvr_android_common_0_8_5/gvr_android_common_0_8_5.iml" filepath="$PROJECT_DIR$/gvr_android_common_0_8_5/gvr_android_common_0_8_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/immersvsdk/immersvsdk.iml" filepath="$PROJECT_DIR$/immersvsdk/immersvsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rajawalivr/rajawalivr.iml" filepath="$PROJECT_DIR$/rajawalivr/rajawalivr.iml" />
+    </modules>
+  </component>
+</project>

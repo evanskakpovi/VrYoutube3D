@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7d7d7" >
+
+    <TextView
+        android:id="@+id/deleteprompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/backcolorcust"
+        android:gravity="center"
+       
+        android:textColor="@color/greenselect"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deleteprompt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp" >
+
+        <Button
+            android:id="@+id/yes"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/backcolorcust"
+            android:minHeight="10dip"
+            android:minWidth="10dip"
+            android:text="Button"
+            android:textColor="@color/greenselect" />
+
+        <Button
+            android:id="@+id/no"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/backcolorcust"
+            android:minHeight="10dip"
+            android:minWidth="10dip"
+            android:text="Button"
+            android:textColor="@color/greenselect" />
+
+    </LinearLayout>
+
+</RelativeLayout>

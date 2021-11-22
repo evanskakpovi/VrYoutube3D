@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="topvpn_ads">広告</string>
+    <string name="topvpn_advertisement">広告</string>
+    <string name="topvpn_don_t_use_my_resources">私のリソースを使用しないでください</string>
+    <string name="topvpn_donate">寄付</string>
+    <string name="topvpn_for_futher_information">詳細については</string>
+    <string name="topvpn_free">無料</string>
+    <string name="topvpn_i_agree">私は同意する</string>
+    <string name="topvpn_i_disagree">私は同意しない</string>
+    <string name="topvpn_i_dont_agree">私は同意しない</string>
+    <string name="topvpn_i_got_it">私はそれを得た！</string>
+    <string name="topvpn_limited">リミテッド</string>
+    <string name="topvpn_no_ads">広告なし</string>
+    <string name="topvpn_no_donate">寄付はありません</string>
+    <string name="topvpn_peer_msg">\"%1$s\" のご利用には、お使いのデバイスのアイドル状態のリソースの利用と引き換えに自由です</string>
+    <string name="topvpn_peer_msg_read_more">\"%1$s\" のご利用には、お使いのデバイスのアイドル状態のリソースの利用と引き換えに無料です。 詳細については、当社のTOSを参照してください。</string>
+    <string name="topvpn_please_see_our">私たちを見てください</string>
+    <string name="topvpn_premium">プレミアム</string>
+    <string name="topvpn_read_more">続きを読む</string>
+    <string name="topvpn_read_more_msg">\"%1$s\" のプレミアム機能の一部と引き換えに、あなたはLuminatiネットワーク上のピアであることを選択することができます。 そうすることによって、あなたは読んだことがあることに同意するものとしての利用規約を受け入れました</string>
+    <string name="topvpn_start">スタート</string>
+    <string name="topvpn_subscription">サブスクリプション</string>
+    <string name="topvpn_tos">利用規約</string>
+    <string name="topvpn_use_app_name_and_be_a_peer">\"%1$s\" を使用し、ピアこと</string>
+    <string name="topvpn_use_app_name_for_subscription">定期的なサブスクリプションの \"%1$s\" を使用してください</string>
+    <string name="topvpn_use_app_name_with_some_advertisements">いくつかの広告で \"%1$s\" を使用</string>
+    <string name="topvpn_use_my_idle_resources">私のアイドル状態のリソースを使用してください</string>
+    <string name="topvpn_welcome_choose_your_usage_plan">ようこそ！ あなたの用法プランを選択してください</string>
+    <string name="topvpn_welcome_to">ようこそ</string>
+</resources>

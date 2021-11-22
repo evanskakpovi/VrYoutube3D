@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="topvpn_ads">广告</string>
+    <string name="topvpn_advertisement">Advertisement</string>
+    <string name="topvpn_don_t_use_my_resources">不要使用我的资源</string>
+    <string name="topvpn_donate">捐赠</string>
+    <string name="topvpn_for_futher_information">获得更多资讯.</string>
+    <string name="topvpn_free">免费</string>
+    <string name="topvpn_hola_sla">the Hola SLA.</string>
+    <string name="topvpn_i_agree">我同意</string>
+    <string name="topvpn_i_disagree">我不同意</string>
+    <string name="topvpn_i_dont_agree">我不同意</string>
+    <string name="topvpn_i_got_it">I GOT IT!</string>
+    <string name="topvpn_limited">有限的</string>
+    <string name="topvpn_mylib_name">topvpn</string>
+    <string name="topvpn_no_ads">没有广告</string>
+    <string name="topvpn_no_donate">不捐赠</string>
+    <string name="topvpn_peer_msg">您可以免费使用 \"%1$s\" 来换取您设备的闲置资源。</string>
+    <string name="topvpn_peer_msg_read_more">Your use of \"%1$s\" is free in return for the use of your device\'s idle resources. Please see our TOS for further information.</string>
+    <string name="topvpn_please_see_our">有关详细信息，请参阅我们的</string>
+    <string name="topvpn_premium">高级</string>
+    <string name="topvpn_read_more">Read more</string>
+    <string name="topvpn_read_more_msg">In return for some of the premium features of \"%1$s\", you may choose to be a peer on the Luminati network. By doing so you agree to have read and accepted the terms of service of</string>
+    <string name="topvpn_start">START</string>
+    <string name="topvpn_subscription">Subscription</string>
+    <string name="topvpn_tos">TOS</string>
+    <string name="topvpn_use_app_name_and_be_a_peer">Use \"%1$s\" and be a peer</string>
+    <string name="topvpn_use_app_name_for_subscription">Use \"%1$s\" for a periodic subscription</string>
+    <string name="topvpn_use_app_name_with_some_advertisements">Use \"%1$s\" with some advertisements</string>
+    <string name="topvpn_use_my_idle_resources">使用我的闲置资源</string>
+    <string name="topvpn_welcome_choose_your_usage_plan">Welcome! Choose your usage plan:</string>
+    <string name="topvpn_welcome_to">欢迎来到</string>
+</resources>

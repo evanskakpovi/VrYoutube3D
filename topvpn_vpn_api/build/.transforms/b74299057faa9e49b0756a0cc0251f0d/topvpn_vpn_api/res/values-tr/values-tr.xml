@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="topvpn_btn_subtext_size">9sp</dimen>
+    <dimen name="topvpn_btn_text_size">12sp</dimen>
+    <string name="topvpn_ads">Reklam İçeren Sürüm</string>
+    <string name="topvpn_don_t_use_my_resources">Cihazın kaynaklarını kullanma</string>
+    <string name="topvpn_donate">Bağış Yap</string>
+    <string name="topvpn_for_futher_information">bakınız</string>
+    <string name="topvpn_free">Ücretsiz</string>
+    <string name="topvpn_i_agree">Kabul Ediyorum</string>
+    <string name="topvpn_i_disagree">Kabul Etmiyorum</string>
+    <string name="topvpn_i_dont_agree">Kabul Etmiyorum</string>
+    <string name="topvpn_limited">Sınırlı Sürüm</string>
+    <string name="topvpn_mylib_name">topvpn</string>
+    <string name="topvpn_no_ads">Reklamsız Sürüm</string>
+    <string name="topvpn_no_donate">Bağış Yapma</string>
+    <string name="topvpn_peer_msg">Cihazınızın boşta olan kaynaklarının kullanımı karşılığında \"%1$s\" kullanımınız ücretsizdir.</string>
+    <string name="topvpn_please_see_our">Daha fazla bilgi için lütfen</string>
+    <string name="topvpn_premium">premium</string>
+    <string name="topvpn_tos">servis şartlarımıza</string>
+    <string name="topvpn_use_my_idle_resources">Cihazın boş kaynaklarını kullan</string>
+    <string name="topvpn_welcome_choose_your_usage_plan"/>
+</resources>

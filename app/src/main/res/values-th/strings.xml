@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name"> Youtube VR 3D</string>
+    <string name="app_name2">Youtube VR 2D</string>
+    <string name="title_activity_select"> Youtube VR 3D</string>
+    <string name="title_activity_open">OpenActivity</string>
+
+    <string name="action_settings">เข้าสู่ระบบ</string>
+    <string name="action_login">เข้าสู่ระบบ Youtube</string>
+    <string name="action_logout">ออกจากระบบ</string>
+    <string name="title_activity_search">ค้นหาวิดีโอ</string>
+    <string name="title_activity_signin">ลงชื่อเข้าใช้</string>
+    <string name="title_activity_authutil">Youtube VR 3D</string>
+    <string name="zoomadj">ปรับค่าการซูมเริ่มต้น</string>
+    <string name="immerse">การค้นหาเสมือนจริง</string>
+    <string name="hello">สวัสดี! มาเริ่มต้นกันด้วยการเลือกระหว่างการค้นหาวิดีโอแบบ 2 มิติหรือ 3 มิติ ขณะเลือก เมื่อคุณดูที่ไอเท็ม คุณจะสังเกตเห็นการเปลี่ยนแปลงของสีตามด้วยการสั่นจากนั้นไอเท็มก็จะถูกเลือก ขอให้สนุก!</string>
+    <string name="hello3d">นี่คือวิดีโอ 3 มิติที่เราเลือกมาให้ความบันเทิงแก่คุณ หากต้องการค้นหา ให้กดเลือกไมโครโฟนสีฟ้าและพูดหลังจากได้ยินเสียง</string>
+    <string name="hello2d">เมื่อดูวิดีโอ 2 มิติ คุณอาจสังเกตเห็นความล่าช้าระหว่างวิดีโอทั้งสอง สำหรับการแก้ไข ให้หยุดวิดีโอชั่วคราวและเล่นต่ออีกครั้ง สำหรับผู้ใช้การ์ดบอร์ด คุณสามารถใช้แม่เหล็กเพื่อเปิดใช้งานไมโครโฟนและออกคำสั่งโดยการพูดว่า \"Play\"</string>
+    <string name="status_downloading_video">กำลังดาวน์โหลดไฟล์วิดีโอ โปรดรออีก 2-3 นาที</string>
+    <string name="error_video_download">การดาวน์โหลดล้มเหลว กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้ง</string>
+    <string name="infoText">กดเพื่อซิงค์วิดีโอหรือเลื่อนไปทางซ้ายหรือขวาเพื่อแสดงหรือซ่อนปุ่ม</string>
+    <string name="please_wait">โปรดรอ</string>
+
+
+    <string name="ints">CA-App-pub-1128448131522384/6925845951</string>
+    <string name="agree">ปลดล็อค</string>
+    <string name="disagree">ยกเลิก</string>
+    <string name="title_activity_main_holder2">MainHolderActivity2</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="loading">กำลังโหลด</string>
+    <string name="usecoin">ปลดล็อค:</string>
+    <string name="earncoin">ได้รับเหรียญมากขึ้น</string>
+
+
+    <string name="server_client_id">803438366402-4apqv0n93irgea8ujfjrd0rfoi0iltnc.apps.googleusercontent.com</string>
+    <string name="ok">ตกลง</string>
+
+    <string name="banner_ad_unit_id">CA-App-pub-3940256099942544/6300978111</string>
+    <string name="AutoSelect">AutoSelect</string>
+    <string name="setting">การตั้งค่าและความพิเศษ</string>
+    <string name="tictac">VR TicTacToe</string>
+    <string name="logoy">โลโก้ YouTube</string>
+    <string name="p720">720p</string>
+    <string name="vrlogo">โลโก้ VR</string>
+    <string name="wood">กรอบไม้ (ฟรี)</string>
+    <string name="tv">กรอบทีวี (สินค้าขายดี)</string>
+    <string name="remover">ตัวช่วยเอากรอบออก (ใช้สิ่งนี้เพื่อดูวิดีโอแบบไม่มีกรอบ)</string>
+    <string name="unall">ปลดล็อคกรอบทั้งหมด! (ตัวเลือกยอดนิยม)</string>
+    <string name="silver">กรอบเงิน</string>
+    <string name="screen">กรอบหน้าจอ</string>
+    <string name="red">กรอบแดง</string>
+    <string name="whitef">กรอบขาว</string>
+    <string name="orangef">กรอบส้ม</string>
+    <string name="yellowf">กรอบเหลือง</string>
+    <string name="greenf">กรอบเขียว</string>
+    <string name="purplef">กรอบม่วง</string>
+    <string name="cyanf">กรอบน้ำเงินเขียว</string>
+    <string name="redeem">กู้คืนรหัส</string>
+    <string name="defaultzoom">ตั้งค่าการซูมเริ่มต้นสำหรับวิดีโอ</string>
+    <string name="error">มีบางอย่างผิดพลาด</string>
+    <string name="unlockit">ปลดล็อคเวอร์ชั่นที่ฟรี</string>
+    <string name="unlockmessage">ปลดล็อคฟังก์ชันการค้นหาเต็มรูปแบบเพื่อเข้าถึงสิ่งที่ Youtube มีให้ และสนับสนุนการพัฒนาของ app นี้</string>
+    <string name="coinunlock">เดี๋ยวก่อน! ปลดล็อคโดยการรับเหรียญ</string>
+    <string name="part1">ขณะนี้คุณมี</string>
+    <string name="part2">เหรียญ ปลดล็อคฟังก์ชันการค้นหาเต็มรูปแบบด้วย</string>
+    <string name="part3">เหรียญ</string>
+    <string name="adbreak">วิดีโอของคุณจะเล่นต่อหลังจากพักโฆษณาสั้น ๆ</string>
+    <string name="continued">ทำต่อ</string>
+    <string name="qbreakt">หยุดพักครู่หนึ่ง</string>
+    <string name="search_youtube">ค้นหา YouTube</string>
+    <string name="_360_video">360 Video</string>
+    <string name="movies">ภาพยนตร์</string>
+    <string name="roller_coaster">รถไฟเหาะ</string>
+    <string name="history">ประวัติ</string>
+    <string name="favs">สิ่งที่โปรดปราน</string>
+    <string name="for_later">ไว้ภายหลัง</string>
+    <string name="likes">การไลค์</string>
+    <string name="uploads">การอัปโหลด</string>
+    <string name="sign_out">ออกจากระบบ</string>
+    <string name="vr_youtube_3d_videos">VR Youtube 3D Videos</string>
+    <string name="swipe_up_or_down_to_resize">เลื่อนขึ้นหรือลงเพื่อปรับขนาด ...</string>
+    <string name="tap_screen_to_pause_play">แตะที่หน้าจอเพื่อหยุดหรือเล่น</string>
+    <string name="long_press_search_item_to_play_3d_videos_without_a_tag">กดค้างในการค้นหาไอเท็มอย่างรวดเร็วเพื่อเล่นวิดีโอ 3 มิติ</string>
+    <string name="watch_on_beautiful_screens">ดูบนหน้าจออันสวยงาม!</string>
+    <string name="look">มาเริ่มกันเถอะ! ดูรอบ ๆ และเลือกวิดีโอที่จะรับชม</string>
+    <string name="lookand">ดูรอบ ๆ และเลือกไอเท็ม!</string>
+
+</resources>

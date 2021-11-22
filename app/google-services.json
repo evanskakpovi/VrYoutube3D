@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "803438366402",
+    "firebase_url": "https://silver-quest-660.firebaseio.com",
+    "project_id": "silver-quest-660",
+    "storage_bucket": "silver-quest-660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803438366402:android:a4758fbf29294b4e",
+        "android_client_info": {
+          "package_name": "com.ekm.youtubevr3dvideos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803438366402-oeqhjlvumvs9f5bh55fpbu211jea6hbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ekm.youtubevr3dvideos",
+            "certificate_hash": "71292B43126D4230D18DB7CA3BDA36DD010F0560"
+          }
+        },
+        {
+          "client_id": "803438366402-osbtbs7ka9on26se3s46mhbms4637sg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ekm.youtubevr3dvideos",
+            "certificate_hash": "8C8AEF88607E45B017E3A9EC05DB9FD6E2C79C1A"
+          }
+        },
+        {
+          "client_id": "803438366402-4apqv0n93irgea8ujfjrd0rfoi0iltnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtmeGiuPTMykHNN9XZkVNFeylsa_aOW_o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-44900919-7"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

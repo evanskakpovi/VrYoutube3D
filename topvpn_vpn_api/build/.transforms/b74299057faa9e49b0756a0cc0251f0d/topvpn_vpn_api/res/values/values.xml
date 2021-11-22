@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="topvpn_colorPrimary">#003d5b</color>
+    <color name="topvpn_colorPrimaryDark">#009cd6</color>
+    <dimen name="topvpn_app_name_size">24sp</dimen>
+    <dimen name="topvpn_btn_subtext_size">11sp</dimen>
+    <dimen name="topvpn_btn_text_size">16sp</dimen>
+    <dimen name="topvpn_got_it_margin_top">20dp</dimen>
+    <dimen name="topvpn_icon_size">48dp</dimen>
+    <dimen name="topvpn_option_desc_size">14sp</dimen>
+    <dimen name="topvpn_option_title_size">15sp</dimen>
+    <dimen name="topvpn_options_space">15dp</dimen>
+    <dimen name="topvpn_peer_text_h">22dp</dimen>
+    <dimen name="topvpn_title_size">32sp</dimen>
+    <dimen name="topvpn_welcome_size">14sp</dimen>
+    <string name="topvpn_ads">ads</string>
+    <string name="topvpn_advertisement">Advertisement</string>
+    <string name="topvpn_app_name_placeholder" translatable="false">APP NAME PLACEHOLDER</string>
+    <string name="topvpn_don_t_use_my_resources">Don\'t use my resources</string>
+    <string name="topvpn_donate">donate</string>
+    <string name="topvpn_for_futher_information">for further information.</string>
+    <string name="topvpn_free">Free</string>
+    <string name="topvpn_hola_sla">the Hola SLA.</string>
+    <string name="topvpn_i_agree">I Agree</string>
+    <string name="topvpn_i_disagree">I Disagree</string>
+    <string name="topvpn_i_dont_agree">I Don\'t agree</string>
+    <string name="topvpn_i_got_it">I GOT IT!</string>
+    <string name="topvpn_limited">limited</string>
+    <string name="topvpn_mylib_name">topvpn</string>
+    <string name="topvpn_no_ads">no ads</string>
+    <string name="topvpn_no_donate">no donate</string>
+    <string name="topvpn_pay">Pay</string>
+    <string name="topvpn_peer_msg">Your use of \"%1$s\" is free of charge in exchange for safely using some of your device\'s resources (WiFi and very limited cellular data)</string>
+    <string name="topvpn_peer_msg_read_more">Your use of \"%1$s\" is free of charge in exchange for safely using some of your device\'s resources (WiFi and very limited cellular data),
+    and only when you are not using your device. You may turn this from the settings menu. Please see our TOS for further information.</string>
+    <string name="topvpn_please_see_our">Please see our</string>
+    <string name="topvpn_premium">premium</string>
+    <string name="topvpn_read_more">Read more</string>
+    <string name="topvpn_read_more_msg">In return for some of the premium features of \"%1$s\", you may choose to be a peer on the Luminati network. By doing so you agree to have read and accepted the terms of service of</string>
+    <string name="topvpn_start">START</string>
+    <string name="topvpn_subscription">Subscription</string>
+    <string name="topvpn_tos">TOS</string>
+    <string name="topvpn_use_app_name_and_be_a_peer">Use \"%1$s\" and be a peer</string>
+    <string name="topvpn_use_app_name_for_subscription">Use \"%1$s\" for a periodic subscription</string>
+    <string name="topvpn_use_app_name_with_some_advertisements">Use \"%1$s\" with some advertisements</string>
+    <string name="topvpn_use_my_idle_resources">Use my idle resources</string>
+    <string name="topvpn_welcome_choose_your_usage_plan">Welcome! Choose your usage plan:</string>
+    <string name="topvpn_welcome_to">Welcome to</string>
+    <style name="topvpn_desc_txt">
+    <item name="android:textSize">@dimen/topvpn_option_desc_size</item>
+    <item name="android:textAlignment">center</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+    <style name="topvpn_options_txt">
+    <item name="android:layout_gravity">center</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textAlignment">center</item>
+    <item name="android:textSize">@dimen/topvpn_option_title_size</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+    <style name="topvpn_text">
+    <item name="android:color">@android:color/white</item>
+    <item name="android:textAlignment">center</item>
+  </style>
+    <style name="topvpn_welcome_text" parent="topvpn_text">
+    <item name="android:textSize">14sp</item>
+    <item name="android:maxWidth">320dp</item>
+  </style>
+</resources>

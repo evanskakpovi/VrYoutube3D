@@ -1,0 +1,72 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#d9b38c</item>
+        <item name="colorPrimaryDark">#d9b38c</item>
+        <item name="colorAccent">#d9b38c</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="Autocomplete" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:background">#d9b38c</item>
+        <item name="colorControlNormal">#34495e</item>
+        <item name="colorControlActivated">#34495e</item>
+        <item name="android:textColor">#34495e</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#d9b38c</item>
+        <item name="colorPrimaryDark">#d9b38c</item>
+        <item name="colorAccent">#d9b38c</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme.Full" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#d9b38c</item>
+        <item name="colorAccent">#000000</item>
+    </style>
+
+    <!-- extend one of the Theme.AppCompat themes -->
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- customize the color palette -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#d9b38c</item>
+        <item name="colorAccent">#000000</item>
+
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.MyTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- res/values/styles.xml -->
+
+    <!-- your theme inherits from the material theme -->
+    <!--<style name="AppTheme" parent="android:Theme.Material">-->
+    <!-- theme customizations -->
+    <!--</style>-->
+    <item name="item_click_support" type="id" />
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:visibility="visible">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/playtxt"
+    android:textColorHint="#fff"
+    android:backgroundTint="#d9b38c"
+    android:theme="@style/Autocomplete"
+        android:hint="Search YouTube"
+    android:cursorVisible="false"
+    android:drawableRight="@drawable/s"
+    android:lines="1"
+        android:background="@drawable/picb46"
+    android:paddingLeft="17dp"
+android:onClick="search2"
+    android:textColor="#000"
+    android:clickable="true"
+    android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp" />
+
+    <GridView
+    android:id="@+id/gridview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchMode="columnWidth"
+    android:numColumns="2"
+    android:gravity="center"
+    android:background="#ffffff"
+        android:useDefaultMargins="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/playtxt" />
+
+</RelativeLayout>

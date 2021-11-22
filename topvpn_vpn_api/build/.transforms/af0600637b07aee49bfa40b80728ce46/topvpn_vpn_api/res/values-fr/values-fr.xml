@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="topvpn_ads">Publicité</string>
+    <string name="topvpn_advertisement"/>
+    <string name="topvpn_don_t_use_my_resources">N\'utilisez pas mes ressources</string>
+    <string name="topvpn_donate">Donner</string>
+    <string name="topvpn_for_futher_information">pour plus d\'informations.</string>
+    <string name="topvpn_free">Gratuit</string>
+    <string name="topvpn_i_agree">Je suis d\'accord</string>
+    <string name="topvpn_i_disagree">Je ne suis pas d\'accord</string>
+    <string name="topvpn_i_dont_agree">Je ne suis pas d\'accord</string>
+    <string name="topvpn_i_got_it"/>
+    <string name="topvpn_limited">Limité</string>
+    <string name="topvpn_mylib_name">topvpn</string>
+    <string name="topvpn_no_ads">Sans publicité</string>
+    <string name="topvpn_no_donate">Ne pas donner</string>
+    <string name="topvpn_peer_msg"/>
+    <string name="topvpn_peer_msg_read_more">Votre utilisation de \"%1$s\" est gratuite en échange de l\'utilisation des ressources inactives de votre appareil.</string>
+    <string name="topvpn_please_see_our">Consultez nos</string>
+    <string name="topvpn_premium">Premium</string>
+    <string name="topvpn_read_more"/>
+    <string name="topvpn_read_more_msg"/>
+    <string name="topvpn_start"/>
+    <string name="topvpn_subscription">abonnement</string>
+    <string name="topvpn_tos">TOS</string>
+    <string name="topvpn_use_app_name_and_be_a_peer"/>
+    <string name="topvpn_use_app_name_for_subscription"/>
+    <string name="topvpn_use_app_name_with_some_advertisements"/>
+    <string name="topvpn_use_my_idle_resources">Utilisez mes ressources inactives</string>
+    <string name="topvpn_welcome_choose_your_usage_plan"/>
+    <string name="topvpn_welcome_to">Bienvenue à</string>
+</resources>

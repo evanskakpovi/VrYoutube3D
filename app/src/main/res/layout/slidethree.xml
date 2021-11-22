@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.ekm.youtubevr3dvideosprod.Settings"
+    android:background="#d9b38c">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/vr_youtube_3d_videos"
+        android:id="@+id/textView2"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:singleLine="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/watch_on_beautiful_screens"
+            android:id="@+id/textView6"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#fff" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/scrollView3" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#000000"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:dividerPadding="5dp"
+                android:focusable="true"
+                android:paddingLeft="10dp"
+                android:layout_gravity="right" >
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton19"
+                    android:checked="false"
+                    android:text="@string/tv"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordo11"
+                    android:layout_toEndOf="@+id/radioButton27"
+                    android:layout_alignTop="@+id/radioButton25"
+                    android:layout_toRightOf="@+id/radioButton27"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton18"
+                    android:checked="false"
+                    android:text="@string/red"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordo2"
+                    android:layout_toEndOf="@+id/radioButton27"
+                    android:layout_alignTop="@+id/radioButton25"
+                    android:layout_toRightOf="@+id/radioButton27"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ff0000" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton23"
+                    android:checked="false"
+                    android:text="@string/orangef"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordoorange"
+                    android:layout_toRightOf="@+id/gridView"
+                    android:layout_alignBottom="@+id/radioButton18"
+                    android:layout_alignLeft="@+id/textView"
+                    android:layout_alignStart="@+id/textView"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ff6600" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton24"
+                    android:checked="false"
+                    android:text="@string/yellowf"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordoyellow"
+                    android:layout_toRightOf="@+id/gridView"
+                    android:layout_alignBottom="@+id/radioButton14"
+                    android:layout_alignLeft="@+id/txt"
+                    android:layout_alignStart="@+id/txt"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ffcc00" />
+
+            </RadioGroup>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="horizontal"
+    tools:context=".MainHolderActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/liner"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:id="@+id/button"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/button2"
+            android:layout_toEndOf="@+id/button2" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:id="@+id/button2"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginLeft="0dp" />
+
+        <fragment
+            android:orientation="horizontal"
+            android:id="@+id/splashFragment"
+            android:name="com.ekm.youtubevr3dvideosprod.MainLogedFrag2Pl"
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/button2"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/button2"
+            tools:layout="@layout/activity_dual_vid3"
+            android:layout_alignParentBottom="true" />
+
+
+        <fragment
+            android:orientation="horizontal"
+
+            android:id="@+id/selectionFragment"
+            android:name="com.ekm.youtubevr3dvideosprod.MainLogedFragPl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            tools:layout="@layout/activity_dual_vid2"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:id="@+id/Button01"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="synch"
+            android:visibility="invisible"
+            android:text="Press to sync"
+            android:textColor="#cc000000"
+            android:background="@drawable/whtback"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l45"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/selectionFragment"
+            android:layout_alignEnd="@+id/selectionFragment">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/voice"
+                android:visibility="visible"
+                android:orientation="horizontal"
+                android:layout_above="@+id/linearLayout4"
+
+                android:layout_alignRight="@+id/selectionFragment"
+                android:layout_alignEnd="@+id/selectionFragment">
+
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/microphonehot"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="center" />
+
+                <ImageView
+                    android:layout_marginRight="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/microphonehot"
+                    android:layout_weight="1"
+                    android:scaleType="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="100dp"
+                android:paddingRight="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4"
+                android:visibility="visible"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/selectionFragment"
+                android:layout_alignEnd="@+id/selectionFragment"
+                >
+
+                <TextView
+                    android:paddingRight="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text1"
+                    android:src="@drawable/microphonehot"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+
+
+                    android:background="#cc000000"
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:text="Speak keyword to search, or say a command" />
+
+                <TextView
+
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text2"
+                    android:background="#cc000000"
+                    android:src="@drawable/microphonehot"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:text="Speak keyword to search, or say a command" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/playerbar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/pbar" />
+
+</RelativeLayout>

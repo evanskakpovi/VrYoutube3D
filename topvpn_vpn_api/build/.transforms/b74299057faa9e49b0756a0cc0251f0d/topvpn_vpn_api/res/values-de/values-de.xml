@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="topvpn_ads">Werbungen</string>
+    <string name="topvpn_advertisement">Werbung</string>
+    <string name="topvpn_don_t_use_my_resources">Verwenden Sie nicht meine Ressourcen</string>
+    <string name="topvpn_donate">spenden</string>
+    <string name="topvpn_for_futher_information">fŸr weitere Informationen.</string>
+    <string name="topvpn_free">Kostenlos</string>
+    <string name="topvpn_hola_sla">the Hola SLA.</string>
+    <string name="topvpn_i_agree">Ich stimme zu</string>
+    <string name="topvpn_i_disagree">Ich stimme nicht zu</string>
+    <string name="topvpn_i_dont_agree">Ich stimme nicht zu</string>
+    <string name="topvpn_i_got_it">ICH HABE ES VERSTANDEN!</string>
+    <string name="topvpn_limited">Limitiert</string>
+    <string name="topvpn_mylib_name">topvpn</string>
+    <string name="topvpn_no_ads">Keine Werbungen</string>
+    <string name="topvpn_no_donate">Kein spenden</string>
+    <string name="topvpn_peer_msg">Ihre Nutzung von \"%1$s\" ist als Gegenleistung fŸr die Nutzung von Ihren ungenutzten GerŠten Ressourcen kostenlos.</string>
+    <string name="topvpn_peer_msg_read_more">Ihre Nutzung von \"%1$s\" ist als Gegenleistung fŸr die Nutzung von Ihren ungenutzten GerŠten Ressourcen kostenlos. Bitte sehen Sie unser TOS fŸr weiter Informationen.</string>
+    <string name="topvpn_please_see_our">Bitte sehen Sie unsere</string>
+    <string name="topvpn_premium">Premium</string>
+    <string name="topvpn_read_more">Lesen Sie mehr</string>
+    <string name="topvpn_read_more_msg">Als Gegenleistung fŸr einige Premiumfunktionen von \"%1$s\", werden Sie mšglicherweise wŠhlen ein gleichrangiger Teilnehmer auf dem Luminati Netzwerk zu sein. Dadurch stimmen Sie zu die Nutzungsbedingungen gelesen und akzeptiert zu haben.f</string>
+    <string name="topvpn_start">START</string>
+    <string name="topvpn_subscription">Abonnement</string>
+    <string name="topvpn_tos">Nutzungsbedingungen</string>
+    <string name="topvpn_use_app_name_and_be_a_peer">Verwenden Sie \"%1$s\" und seien Sie ein gleichrangiger Teilnehmer</string>
+    <string name="topvpn_use_app_name_for_subscription">Verwenden Sie \"%1$s\" fŸr eine periodisches Abonnement</string>
+    <string name="topvpn_use_app_name_with_some_advertisements">Verwenden sie \"%1$s\" mit einigen Werbungen</string>
+    <string name="topvpn_use_my_idle_resources">Verwenden Sie meine ungenutzten Ressourcen</string>
+    <string name="topvpn_welcome_choose_your_usage_plan">Willkommen! Verwenden Sie Ihren Nutzungsplan:</string>
+    <string name="topvpn_welcome_to">Willkommen bei</string>
+</resources>

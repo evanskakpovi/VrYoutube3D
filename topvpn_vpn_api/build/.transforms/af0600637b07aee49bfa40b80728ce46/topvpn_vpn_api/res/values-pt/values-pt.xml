@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="topvpn_ads">Anúncios</string>
+    <string name="topvpn_advertisement">Propaganda</string>
+    <string name="topvpn_don_t_use_my_resources">Não usar os meus recursos ociosos</string>
+    <string name="topvpn_donate">Doar</string>
+    <string name="topvpn_for_futher_information">para maiores informações.</string>
+    <string name="topvpn_free">Grátis</string>
+    <string name="topvpn_i_agree">Eu concordo</string>
+    <string name="topvpn_i_disagree">Eu não concordo</string>
+    <string name="topvpn_i_dont_agree">Eu não concordo</string>
+    <string name="topvpn_i_got_it">ENTENDI!</string>
+    <string name="topvpn_limited">Limitado</string>
+    <string name="topvpn_mylib_name">topvpn</string>
+    <string name="topvpn_no_ads">Sem anúncios</string>
+    <string name="topvpn_no_donate">Sem doações</string>
+    <string name="topvpn_peer_msg">A utilização do \"%1$s\" é gratuito em troca do uso dos recursos ociosos do seu dispositivo</string>
+    <string name="topvpn_peer_msg_read_more">A utilização do \"%1$s\" é gratuito em troca do uso dos recursos ociosos do seu dispositivo. Consulte o nosso TOS para obter maiores informações.</string>
+    <string name="topvpn_please_see_our">Por favor veja o nosso</string>
+    <string name="topvpn_premium">Premium</string>
+    <string name="topvpn_read_more">Leia mais</string>
+    <string name="topvpn_read_more_msg">Em troca de algumas das funcionalidades premium do \"%1$s\", você pode escolher ser um peer na rede Luminati. Ao fazê-lo, você concorda em ter lido e aceitado os termos de serviço de</string>
+    <string name="topvpn_start">INICIAR</string>
+    <string name="topvpn_subscription">Inscrição</string>
+    <string name="topvpn_tos">Termos de Serviço</string>
+    <string name="topvpn_use_app_name_and_be_a_peer">Usar \"%1$s\" e tornar-me um peer</string>
+    <string name="topvpn_use_app_name_for_subscription">Utilizar \"%1$s\" para uma assinatura periódica</string>
+    <string name="topvpn_use_app_name_with_some_advertisements">Utilizar \"%1$s\" com alguns anúncios</string>
+    <string name="topvpn_use_my_idle_resources">Usar os meus recursos ociosos</string>
+    <string name="topvpn_welcome_choose_your_usage_plan">Bem vindo! Escolha o seu plano</string>
+    <string name="topvpn_welcome_to">Seja benvindo a</string>
+</resources>

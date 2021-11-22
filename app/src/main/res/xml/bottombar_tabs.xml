@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <tabs>
+        <tab
+            id="@+id/tab_search"
+            barColorWhenSelected="#d9b38c"
+            icon="@drawable/search"
+            title="Search" />
+        <tab
+            id="@+id/tab_likes"
+            icon="@drawable/like24"
+            barColorWhenSelected="#B3E5FC"
+            title="Likes" />
+        <tab
+            id="@+id/tab_upload"
+            icon="@drawable/upload24"
+            barColorWhenSelected="#A5D6A7"
+            title="Uploads" />
+        <tab
+            id="@+id/tab_user"
+            icon="@drawable/exit24"
+            barColorWhenSelected="#ff0000"
+            title="Sign Out" />
+
+    </tabs>
+</PreferenceScreen>

@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+
+    android:id="@+id/rel">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="#FFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:background="#fff"
+            android:visibility="visible">
+
+
+            <ImageView
+                android:contentDescription="@string/logoy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:src="@drawable/yout"
+                android:onClick="search"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp" />
+
+            <RadioGroup
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:background="#d9b38c"
+                android:id="@+id/radg">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="@string/p720"
+                    android:id="@+id/hd"
+                    android:checked="false"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="360p"
+                    android:id="@+id/sd"
+                    android:checked="false"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="240p"
+                    android:id="@+id/gp"
+                    android:checked="false"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="240p"
+                    android:layout_weight="1"
+                    android:id="@+id/gps"
+                    android:checked="false" />
+            </RadioGroup>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#d9b38c"
+            android:layout_weight="0.25">
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout7"
+                android:layout_toEndOf="@+id/auto"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+
+                <ImageView
+                    android:contentDescription="@string/vrlogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/cardboard"
+                    android:background="#d9b38c"
+                    android:onClick="search3d"
+                    android:adjustViewBounds="false"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AutoSelect"
+                android:id="@+id/auto"
+                android:checked="false"
+                android:textColor="#000"
+                android:enabled="true"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#fff"
+            android:onClick="settings"
+            android:layout_weight="0.25">
+            <Button
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:background="#d9b38c"
+                android:text="@string/setting"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:onClick="settings" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:background="#d9b38c">
+
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="@string/tictac"
+                android:id="@+id/cards4"
+                android:scaleType="centerCrop"
+                android:onClick="picex"
+                android:src="@drawable/p1024"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="100dp" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

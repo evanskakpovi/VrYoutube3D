@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/patternload"
+    android:gravity="start"
+    tools:context="${relativePackage}.${activityClass}"
+    android:id="@+id/rel">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Select Video from list to start, or pull the magnet to start"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/Settings"
+        android:layout_toStartOf="@+id/Settings" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_below="@+id/textView1"
+        android:fillViewport="true"
+        android:background="@drawable/bordo13">
+
+        <LinearLayout
+            android:id="@+id/lnn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/Button01"
+        android:ems="10"
+        android:hint="Enter Youtube Url or Id"
+
+        android:textColor="#000"
+       >
+
+        <requestFocus />
+    </EditText>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:fillViewport="true"
+        android:background="@drawable/bordo13"
+        android:layout_below="@+id/Settings">
+
+        <LinearLayout
+            android:id="@+id/lnn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editText1"
+        android:onClick="playNormal"
+
+        android:text="Play 2D"
+        android:background="@drawable/picb46" />
+
+    <Button
+        android:id="@+id/Button01"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/scrollView2"
+        android:layout_toLeftOf="@+id/button1"
+        android:onClick="play"
+        android:text="Play 3D"
+        android:background="@drawable/picb46"
+        android:layout_alignLeft="@+id/scrollView2"
+        android:layout_alignStart="@+id/scrollView2" />
+
+    <TextView
+        android:paddingTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Zoom"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000" />
+
+    <ZoomControls
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zoomControls"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="50"
+        android:id="@+id/zoo"
+        android:layout_below="@+id/zoomControls"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:clickable="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:onClick="search"
+        android:id="@+id/button2"
+        android:layout_below="@+id/zoo"
+        android:layout_alignLeft="@+id/zoomControls"
+        android:layout_alignStart="@+id/zoomControls"
+        android:layout_alignRight="@+id/zoomControls"
+        android:layout_alignEnd="@+id/zoomControls"
+        android:adjustViewBounds="false" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/Settings"
+
+        android:layout_alignParentTop="true"
+
+        android:onClick="settings"
+        android:layout_alignRight="@+id/scrollView2"
+        android:layout_alignEnd="@+id/scrollView2"
+        android:src="@drawable/ab_bottom_solid_appvr" />
+
+
+</RelativeLayout>

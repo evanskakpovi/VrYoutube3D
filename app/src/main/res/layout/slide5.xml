@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.ekm.youtubevr3dvideosprod.Settings"
+    android:background="#d9b38c">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/vr_youtube_3d_videos"
+        android:id="@+id/textView2"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:singleLine="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView7"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/swipe_up_or_down_to_resize"
+        android:id="@+id/textView8"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_above="@+id/textView9"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_marginBottom="51dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tap_screen_to_pause_play"
+        android:id="@+id/textView9"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/long_press_search_item_to_play_3d_videos_without_a_tag"
+        android:id="@+id/textView10"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="51dp" />
+
+</RelativeLayout>

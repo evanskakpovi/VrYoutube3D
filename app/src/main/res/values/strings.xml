@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Youtube VR 3D</string>
+    <string name="app_name2">Youtube VR 2D</string>
+    <string name="title_activity_select">Youtube VR 3D</string>
+    <string name="title_activity_open">OpenActivity</string>
+
+    <string name="action_settings">Login</string>
+    <string name="action_login">Login to Youtube</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_search">Lookup Videos</string>
+    <string name="title_activity_signin">signin</string>
+    <string name="title_activity_authutil">Youtube VR 3D</string>
+    <string name="zoomadj">Adjust default zoom</string>
+    <string name="immerse">Immersive Search</string>
+    <string name="hello">Hi there! Get started by selecting between 2d or 3d video search. To select, look at an item. You will notice a color change, followed by vibrations. The item will then be selected. Have fun!</string>
+    <string name="hello3d">Here is a selection of 3d videos for your enjoyment. To search, select the blue microphone, and say something after the tone.</string>
+    <string name="hello2d">When watching 2d videos, you may notice a lag between both videos. To correct, pause the video, and resume again. For cardboard users, you can use your magnet to activate the microphone, and speak the command \"Play\".</string>
+    <string name="status_downloading_video">The video file is still downloading. Please wait a couple of more minutes.</string>
+    <string name="error_video_download">The download failed. Please check your internet connection and try again.</string>
+    <string name="infoText">Press to synch videos, or swipe left/right to show/hide button</string>
+    <string name="please_wait">Please wait</string>
+
+
+    <string name="ints">ca-app-pub-1128448131522384/6925845951</string>
+    <string name="agree">Unlock</string>
+    <string name="disagree">Cancel</string>
+    <string name="title_activity_main_holder2">MainHolderActivity2</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="loading">Loading...</string>
+    <string name="usecoin">Unlock: </string>
+    <string name="earncoin">Earn more coins</string>
+
+
+    <string name="server_client_id">803438366402-4apqv0n93irgea8ujfjrd0rfoi0iltnc.apps.googleusercontent.com</string>
+    <string name="ok">Ok</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AutoSelect">AutoSelect  </string>
+    <string name="setting">Extras</string>
+    <string name="tictac">VR TicTacToe</string>
+    <string name="logoy">Youtube Logo</string>
+    <string name="p720">720p</string>
+    <string name="vrlogo">VR LOGO</string>
+    <string name="wood">Wood Frame (Free)</string>
+    <string name="tv">TV Frame (Hot Item)</string>
+    <string name="remover">Frame remover ( Use this to watch videos without a frame )</string>
+    <string name="unall">Unlock all frames! (Popular option)</string>
+    <string name="silver">Silver Frame</string>
+    <string name="screen">Screen Frame</string>
+    <string name="red">Red Frame</string>
+    <string name="whitef">White Frame</string>
+    <string name="orangef">Orange Frame</string>
+    <string name="yellowf">Yellow Frame</string>
+    <string name="greenf">Green Frame</string>
+    <string name="purplef">Purple Frame</string>
+    <string name="cyanf">Cyan Frame</string>
+    <string name="redeem">Redeem Code</string>
+    <string name="defaultzoom">Set default Zoom level for Videos</string>
+    <string name="error">Something went wrong</string>
+    <string name="unlockit">Unlock the free version</string>
+    <string name="unlockmessage">Unlock full functionality of this app with a one time purchase</string>
+    <string name="coinunlock">Wait! Unlock by earning coins</string>
+    <string name="part1">You currently have</string>
+    <string name="part2">coin. Unlock full search functionality with</string>
+    <string name="part3">coin.</string>
+    <string name="adbreak">Your video will play after a short ad break</string>
+    <string name="continued">Continue</string>
+    <string name="qbreakt">Quick break</string>
+    <string name="search_youtube">Search YouTube</string>
+    <string name="_360_video">360 Video</string>
+    <string name="movies">Movies</string>
+    <string name="roller_coaster">Roller Coaster</string>
+    <string name="history">History</string>
+    <string name="favs">Favs</string>
+    <string name="for_later">For Later</string>
+    <string name="likes">Likes</string>
+    <string name="uploads">Uploads</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="vr_youtube_3d_videos">VR Youtube 3D Videos</string>
+    <string name="swipe_up_or_down_to_resize">Swipe up or down to resize...</string>
+    <string name="tap_screen_to_pause_play">Tap screen to pause/play...</string>
+    <string name="long_press_search_item_to_play_3d_videos_without_a_tag">Long press search item to play 3D videos without a tag...</string>
+    <string name="watch_on_beautiful_screens">Watch on beautiful screens!</string>
+    <string name="look">Let get started! Look around and select a video to watch.</string>
+    <string name="lookand">Look around to choose an item!</string>
+    <string name="expensive">Price is not affordable.</string>
+    <string name="crash">The app is not working.</string>
+    <string name="other">Other reason.</string>
+    <string name="Luminati">Use the app for Free</string>
+    <string name="partLuminati">Share idle resources with Luminati and use this app for Free. You may opt out from settings.</string>
+    <string name="useLuminati">Use for free</string>
+    <string name="purchase">Pay and Unlock</string>
+
+</resources>

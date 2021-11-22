@@ -1,0 +1,323 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/scrollView4"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    tools:context="com.ekm.youtubevr3dvideosprod.Settings">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d9b38c"
+  >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+       >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/code"
+            android:textColorHint="#34495e"
+            android:hint="@string/redeem"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:imeOptions="actionSearch"
+            android:drawableRight="@drawable/arrowm"
+            android:lines="1"
+            android:background="@drawable/picb46"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:inputType="textAutoComplete|textAutoCorrect"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_marginRight="5dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/zoombar"
+            android:layout_margin="5dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/defaultzoom"
+                android:id="@+id/textView5" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar2"
+                android:indeterminate="false" />
+        </LinearLayout>
+
+
+            <RadioGroup
+
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:divider="#000000"
+                android:dividerPadding="5dp"
+                android:focusable="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:visibility="visible"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <Switch
+                    android:text="3D Effect"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textSize="25sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/effect3d" />
+
+                <Switch
+                    android:id="@+id/luminati"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Free with Luminati"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton6"
+                    android:checked="false"
+                    android:text="@string/wood"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordo9"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:visibility="visible"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton7"
+                    android:checked="false"
+                    android:text="@string/tv"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordo11"
+
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton12"
+                    android:checked="false"
+                    android:text="@string/remover"
+                    android:background="@drawable/noborder"
+
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#fff"
+                    android:button="@drawable/selectordperm"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:text="@string/unall"
+                    android:id="@+id/radioButton13"
+                    android:background="@drawable/alloptions"
+                    android:button="@drawable/selectordperm"
+                    android:checked="false"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton5"
+                    android:checked="false"
+                    android:text="@string/silver"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordo5"
+
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton4"
+                    android:checked="false"
+                    android:text="@string/screen"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordo4"
+
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <RadioButton
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:id="@+id/radioButton2"
+                android:checked="false"
+                android:text="@string/red"
+                android:button="@drawable/selectordperm"
+                android:background="@drawable/bordo2"
+
+                android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ff0000"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton11"
+                    android:checked="false"
+                    android:text="@string/whitef"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordowhite"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton9"
+                    android:checked="false"
+                    android:text="@string/orangef"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordoorange"
+
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ff6600"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton8"
+                    android:checked="false"
+                    android:text="@string/yellowf"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordoyellow"
+
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ffcc00"
+                    android:visibility="visible" />
+
+                <RadioButton
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:id="@+id/radioButton"
+                android:checked="false"
+                android:text="@string/greenf"
+                android:button="@drawable/selectordperm"
+                android:background="@drawable/bordo"
+
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#00ff00"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton10"
+                    android:checked="false"
+                    android:text="@string/purplef"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordopurple"
+
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#6600cc"
+                    android:visibility="visible" />
+
+                <RadioButton
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:id="@+id/radioButton3"
+                android:checked="false"
+                android:text="@string/cyanf"
+                android:button="@drawable/selectordperm"
+                android:background="@drawable/bordo3"
+
+                android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/radioButton1"
+                    android:checked="false"
+                    android:button="@drawable/selectordperm"
+                    android:background="@drawable/bordo12"
+
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <Button
+                    android:visibility="visible"
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/button"
+                    android:background="@drawable/adsr"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:onClick="adremove"
+                    android:paddingBottom="15dp"
+                />
+
+            </RadioGroup>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+    </ScrollView>

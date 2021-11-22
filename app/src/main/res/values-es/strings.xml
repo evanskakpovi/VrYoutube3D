@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Youtube VR 3D</string>
+    <string name="app_name2">Youtube VR 2D</string>
+    <string name="title_activity_select">Youtube VR 3D</string>
+    <string name="title_activity_open">OpenActivity</string>
+
+    <string name="action_settings">Login</string>
+    <string name="action_login">Login to Youtube</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_search">Lookup Videos</string>
+    <string name="title_activity_signin">signin</string>
+    <string name="title_activity_authutil">Youtube VR 3D</string>
+    <string name="zoomadj">Adjust default zoom</string>
+    <string name="immerse">Inmersivo Buscar</string>
+    <string name="hello">¡Hola! Para empezar, selecciona entre la búsqueda de vídeo 2D o 3D. Para seleccionar, mira a un elemento. Usted notará un cambio de color, seguido de vibraciones. A continuación, se selecciona el elemento. ¡Que te diviertas!</string>
+    <string name="hello3d">He aquí una selección de los vídeos 3d para su disfrute. Para buscar, seleccionar el micrófono azul, y decir algo después del tono.</string>
+    <string name="hello2d">Cuando ver vídeos en 2D, es posible que observe un desfase entre los dos videos. Para corregir, hacer una pausa en el vídeo, y reanudar de nuevo. Para los usuarios de cartón, puede utilizar su imán para activar el micrófono y hablar el comando \ "Juego \".</string>
+    <string name="status_downloading_video">El archivo de vídeo todavía se está descargando. Por favor, espere un par de minutos más.</string>
+    <string name="error_video_download">La descarga ha fallado. Por favor, compruebe su conexión a Internet y vuelve a intentarlo.</string>
+    <string name="infoText">Pulse para sincronizar vídeos, o pase a la izquierda / derecha para mostrar el botón / ocultar</string>
+    <string name="please_wait">Por favor espera</string>
+
+
+    <string name="ints">ca-app-pub-1128448131522384/6925845951</string>
+    <string name="agree">Desbloquear</string>
+    <string name="disagree">Cancelar</string>
+    <string name="title_activity_main_holder2">MainHolderActivity2</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="loading">Cargando...</string>
+    <string name="usecoin">Desbloquear: </string>
+    <string name="earncoin">Ganar más monedas</string>
+
+
+
+    <string name="server_client_id">803438366402-4apqv0n93irgea8ujfjrd0rfoi0iltnc.apps.googleusercontent.com</string>
+    <string name="ok">DE ACUERDO</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AutoSelect">Selección automática</string>
+    <string name="setting">Ajustes</string>
+    <string name="tictac">VR TicTacToe</string>
+    <string name="logoy">Youtube Logo</string>
+    <string name="p720">720p</string>
+    <string name="vrlogo">VR LOGO</string>
+    <string name="wood">Marco de madera(Free)</string>
+    <string name="tv">Marco de TV (caliente)</string>
+    <string name="remover">Removedor trama ( Utilice esta opción para ver vídeos sin marco )</string>
+    <string name="unall">Desbloquear todos los marcos! (Opción popular)</string>
+    <string name="silver">Marco de plata</string>
+    <string name="screen">Capítulo de pantalla</string>
+    <string name="red">Marco rojo</string>
+    <string name="whitef">Marco blanco</string>
+    <string name="orangef">Marco naranja</string>
+    <string name="yellowf">Marco amarillo</string>
+    <string name="greenf">Marco verde</string>
+    <string name="purplef">Marco púrpura</string>
+    <string name="cyanf">Marco cian</string>
+    <string name="redeem">Canjear código</string>
+    <string name="defaultzoom">Establecer el nivel de zoom predeterminado para vídeos</string>
+    <string name="error">Algo salió mal</string>
+    <string name="unlockit">Desbloquear la versión gratuita</string>
+    <string name="unlockmessage">Desbloquea la aplicación para seguir viendo videos ilimitados</string>
+    <string name="coinunlock">Wait! Unlock by earning coins</string>
+    <string name="part1">You currently have</string>
+    <string name="part2">coin. Unlock full search functionality with</string>
+    <string name="part3">coin.</string>
+    <string name="adbreak">Your video will play after a short ad break</string>
+    <string name="continued">Continue</string>
+    <string name="qbreakt">Quick break</string>
+
+    <string name="search_youtube">Buscar Youtube</string>
+    <string name="_360_video">360 vídeo</string>
+    <string name="movies">Películas</string>
+    <string name="roller_coaster">Montaña rusa</string>
+    <string name="history">Historia</string>
+    <string name="favs">Favs</string>
+    <string name="for_later">Para luego</string>
+    <string name="likes">Gustos</string>
+    <string name="uploads">Subidas</string>
+    <string name="sign_out">Desconectar</string>
+
+    <string name="vr_youtube_3d_videos">VR 3D Youtube Videos</string>
+    <string name="swipe_up_or_down_to_resize">Slimpie arriba o hacia abajo para cambiar el tamaño ...</string>
+    <string name="tap_screen_to_pause_play">Toque la pantalla para hacer una pausa / reproducir ...</string>
+    <string name="long_press_search_item_to_play_3d_videos_without_a_tag">Larga elemento de búsqueda pulse para reproducir vídeos en 3D sin una etiqueta ...</string>
+    <string name="watch_on_beautiful_screens">Ver en hermosas pantallas!</string>
+    <string name="look">Dejar que empezar! Mire a su alrededor y seleccionar un vídeo para verlo.</string>
+    <string name="lookand">¡Mire alrededor para elegir un artículo!</string>
+</resources>

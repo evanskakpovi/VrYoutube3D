@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="topvpn_app_name_size">36sp</dimen>
+    <dimen name="topvpn_got_it_margin_top">30dp</dimen>
+    <dimen name="topvpn_icon_size">56dp</dimen>
+    <dimen name="topvpn_option_desc_size">20sp</dimen>
+    <dimen name="topvpn_option_title_size">22sp</dimen>
+    <dimen name="topvpn_options_space">25dp</dimen>
+    <dimen name="topvpn_peer_text_h">24dp</dimen>
+    <dimen name="topvpn_welcome_size">20sp</dimen>
+</resources>

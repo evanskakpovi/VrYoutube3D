@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="immersvsdk-unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/VrYoutube3D/immersvsdk/unspecified/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/VrYoutube3D/immersvsdk/unspecified/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

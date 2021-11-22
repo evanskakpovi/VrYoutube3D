@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f42323</color>
+    <color name="colorPrimaryDark">#c41f1f</color>
+    <color name="colorAccent">#f42525</color>
+    <color name="frame">#eaeaea</color>
+    <color name="black">#ff000000</color>
+    <color name="textColor">#ffffffff</color>
+    <color name="infoTextBacgroundColor">#ffffffff</color>
+    <color name="infotextColor">#ff000000</color>
+    <color name="seekbarbackground">#ffffffff</color>
+    <color name="secondery_progress_color">#ff00ff00</color>
+
+</resources>

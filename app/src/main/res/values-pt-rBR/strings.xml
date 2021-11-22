@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Realidade virtual em 3D no YouTube</string>
+    <string name="app_name2">Realidade virtual em 2D no YouTube</string>
+    <string name="title_activity_select">Realidade virtual em 3D no YouTube</string>
+    <string name="title_activity_open">OpenActivity</string>
+
+    <string name="action_settings">Entrar</string>
+    <string name="action_login">Entrar no YouTube</string>
+    <string name="action_logout">Sair</string>
+    <string name="title_activity_search">Procurar vídeos</string>
+    <string name="title_activity_signin">Conectar-se</string>
+    <string name="title_activity_authutil">Realidade virtual em 3D no YouTube</string>
+    <string name="zoomadj">Ajustar zoom padrão</string>
+    <string name="immerse">Busca imersiva</string>
+    <string name="hello">Olá! Comece selecionando entre a pesquisa de vídeos 2D ou 3D. Para selecionar, foque em um item. Você perceberá uma alteração de cor, seguida por vibrações, e o item será  selecionado. Divirta-se!</string>
+    <string name="hello3d">Veja algumas opções de vídeos 3D para você aproveitar. Para pesquisar, selecione o microfone azul e diga algo após o toque.</string>
+    <string name="hello2d">Ao assistir a vídeos 2D, podem ocorrer atrasos entre os vídeos. Para corrigi-los, pause o vídeo e continue a reprodução. Para usuários do Google Cardboard, é possível utilizar o ímã para ativar o microfone, e dizer o comando \'Play\'.</string>
+    <string name="status_downloading_video">O vídeo ainda está sendo baixado. Aguarde mais alguns minutos.</string>
+    <string name="error_video_download">O download falhou. Verifique sua conexão de internet e tente novamente</string>
+    <string name="infoText">Pressione para sincronizar vídeos, ou delize para a esquerda/direita para exibir/ocultar o botão.</string>
+    <string name="please_wait">Aguarde</string>
+
+
+    <string name="ints">ca-app-pub-1128448131522384/6925845951</string>
+    <string name="agree">Desbloquear</string>
+    <string name="disagree">Cancelar</string>
+    <string name="title_activity_main_holder2">MainHolderActivity2</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="loading">Carregando...</string>
+    <string name="usecoin">Desbloquear:</string>
+    <string name="earncoin">Ganhe mais moedas</string>
+
+
+    <string name="server_client_id">803438366402-4apqv0n93irgea8ujfjrd0rfoi0iltnc.apps.googleusercontent.com</string>
+    <string name="ok">OK</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AutoSelect">Seleção automática</string>
+    <string name="setting">Configurações e extras</string>
+    <string name="tictac">Jogo da Velha VR</string>
+    <string name="logoy">Logo do YouTube</string>
+    <string name="p720">720p</string>
+    <string name="vrlogo">LOGO DE REALIDADE VIRTUAL</string>
+    <string name="wood">Bordas de madeira (Gratuito)</string>
+    <string name="tv">Borda de TV (Item em destaque)</string>
+    <string name="remover">Removedor de Bordas (utilize esse item para assistir a vídeos sem bordas)</string>
+    <string name="unall">Desbloquear todas as bordas! (Opção popular)</string>
+    <string name="silver">Bordas prateadas</string>
+    <string name="screen">Bordas da tela</string>
+    <string name="red">Bordas vermelhas</string>
+    <string name="whitef">Bordas brancas</string>
+    <string name="orangef">Bordas laranja</string>
+    <string name="yellowf">Bordas amarelas</string>
+    <string name="greenf">Bordas verdes</string>
+    <string name="purplef">Bordas roxas</string>
+    <string name="cyanf">Bordas ciano</string>
+    <string name="redeem">Rsgatar código</string>
+    <string name="defaultzoom">Definir nível padrão de zoom para vídeos</string>
+    <string name="error">ALgo deu errado</string>
+    <string name="unlockit">Desbloqueie a versão gratuita</string>
+    <string name="unlockmessage">Desbloqueie a funcionalidade de busca completa e acesse tudo que os vídeos do YouTube têm a oferecer, além de apoiar o desenvolvimento desse app.</string>
+    <string name="coinunlock">Espere! Desbloqueie ganhando moedas</string>
+    <string name="part1">No momento você tem</string>
+    <string name="part2">moedas. Desbloqueie a funcionalidade de busca completa com</string>
+    <string name="part3">moedas.</string>
+    <string name="adbreak">Seu vídeo será reproduzido após um curto intervalo de anúncios.</string>
+    <string name="continued">Prosseguir</string>
+    <string name="qbreakt">Intervalo curto</string>
+    <string name="search_youtube">Pesquisar no YouTube</string>
+    <string name="_360_video">Vídeo 360</string>
+    <string name="movies">Filmes</string>
+    <string name="roller_coaster">Montanha Russa</string>
+    <string name="history">Histórico</string>
+    <string name="favs">Favoritos</string>
+    <string name="for_later">Ver mais tarde</string>
+    <string name="likes">Gostei</string>
+    <string name="uploads">Envios</string>
+    <string name="sign_out">Desconectar</string>
+    <string name="vr_youtube_3d_videos">Vídeos 3D em Realidade Virtual no YouTube</string>
+    <string name="swipe_up_or_down_to_resize">Deslize para cima ou para baixo para redimensionar...</string>
+    <string name="tap_screen_to_pause_play">Toque na tela para pausar/reproduzir...</string>
+    <string name="long_press_search_item_to_play_3d_videos_without_a_tag">Mantenha o ícone de busca pressionado para reproduzir vídeos 3D sem tag...</string>
+    <string name="watch_on_beautiful_screens">Assista em belíssimas telas!</string>
+    <string name="look">Vamos começar! Olhe em volta e selecione um vídeo para assistir.</string>
+    <string name="lookand">Olhe em volta e escolha um item!</string>
+
+</resources>

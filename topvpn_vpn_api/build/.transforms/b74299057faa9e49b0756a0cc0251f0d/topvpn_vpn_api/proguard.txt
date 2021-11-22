@@ -1,0 +1,11 @@
+-keep class io.topvpn.vpn_api.** {*;}
+-keepclassmembers public class io.topvpn.vpn_api.** {*;}
+
+# we need that for jni
+-keep public class io.topvpn.vpn_api.util$ipc_result
+-keepclassmembers class io.topvpn.vpn_api.util$ipc_result {
+    public <fields>;
+}
+
+-keep public class io.topvpn.vpn_api.api
+-keepclassmembers public class io.topvpn.vpn_api.api {*;}
